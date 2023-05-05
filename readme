@@ -3,4 +3,29 @@ all problems due to using this tool are not supported by the developers
 please this is just for learning porpuse.
 
 this is an hacking tool, which allows you to perform an reading of wifi network keys stored on a windows machine.
-and sending these through SMTP protocol to your email inbox.
+and sending these through SMTP protocol to your email inbox
+
+
+
+
+how to setup :
+
+
+
+
+how to configure 
+
+-   go to data/data.json 
+-   fill this json file by adding 
+    
+    PASSWORD which is likely your gmail acount app-password key
+    SENDER : your email 
+    DEST : the destination email.
+
+Test :
+
+execute the main.py file 
+
+
+How to build a python executable :
+    
