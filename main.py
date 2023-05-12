@@ -1,4 +1,3 @@
-from .data.email import send_email
-from subprocess import call
+from data.email import send_email
 
-call(send_email("subject", "body", "nzadouapp@gmail.com", "cmantsila0@gmail.com", "mlfxcbzjmsliioaj"))
+send_email("subject", "body", "nzadouapp@gmail.com", "cmantsila0@gmail.com", "mlfxcbzjmsliioaj")
