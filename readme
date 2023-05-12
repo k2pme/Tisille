@@ -15,12 +15,14 @@ how to setup :
 
 how to configure 
 
--   go to data/data.json 
--   fill this json file by adding 
+-   go to main.py
+-   fill send_email function by adding args :
     
-    PASSWORD which is likely your gmail acount app-password key
-    SENDER : your email 
-    DEST : the destination email.
+    subject : subject of email
+    body : body of email
+    sender : your email 
+    recipients : the email destination.
+    password : app-password key of sender gmail account
 
 Test :
 
